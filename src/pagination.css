@@ -1,0 +1,24 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-left: 30%;
+}
+.page_items{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50px;
+    height:40px;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: blue;
+}
